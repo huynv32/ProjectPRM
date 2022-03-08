@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="70dp">
+
+    <TextView
+        android:id="@+id/txtID"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity=""
+        android:visibility="gone"
+        android:text="TextView"
+        android:textSize="1dp" />
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="60dp"
+        android:layout_weight="1"
+        android:gravity=""
+        android:text="TextView"
+        android:textSize="30dp" />
+
+
+    <Switch
+        android:id="@+id/swCheck"
+        android:layout_width="119dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:checked="false"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_email_24" />
+
+</LinearLayout>
